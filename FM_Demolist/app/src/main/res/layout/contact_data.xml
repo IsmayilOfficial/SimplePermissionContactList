@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/contact_photo"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="2"
+        android:layout_margin="4dp"
+        android:scaleType="fitXY"/>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/contact_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:background="@drawable/edito"
+            android:layout_margin="4dp"/>
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/contact_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edito"
+            android:textSize="14dp"
+            android:layout_margin="4dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/contact_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edito"
+            android:textSize="14dp"
+            android:layout_margin="4dp"/>
+
+
+        <Button
+            android:id="@+id/CALL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/oval"
+            android:text="CALL" />
+
+        <Button
+            android:id="@+id/my_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/oval"
+            android:layout_weight="1"
+            android:text="Email" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
